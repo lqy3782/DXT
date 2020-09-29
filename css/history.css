@@ -1,0 +1,81 @@
+.title{
+    background: #def9f9;
+    height: 260px;
+}
+.time{
+    background: url("../imgs/line1.png")no-repeat center;
+    height: 260px;
+    overflow: hidden;
+}
+
+.time li{
+    float: left;
+    width: 11%;
+    height: 100%;
+    position: relative;
+}
+.time li .icon{
+    background: url("../imgs/circle2.png")no-repeat center;
+    height: 100%;
+    width: 100%;
+}
+.time li span{
+    font-size: 30px;
+    color: #9dd1d1;
+    position: absolute;
+    top: 23%;
+    left: 30%;
+}
+.time li .span-two{
+    top: 60%;
+}
+.time li:hover .icon{
+    background: url("../imgs/circle1.png")no-repeat center center;
+}
+.time li:hover span{
+    -webkit-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5);
+    color:#257bb1;
+}
+.time li .current{
+     -webkit-transform: scale(1.5);
+        -o-transform: scale(1.5);
+        -moz-transform: scale(1.5);
+        -ms-transform: scale(1.5);
+        transform: scale(1.5);
+        color:#257bb1;
+}
+.time li .icontwo{
+    background: url("../imgs/circle1.png")no-repeat center center;
+}
+.time-detail{
+    background: url("../imgs/line2.png")center repeat-y;
+    margin: 30px 70px;
+}
+ .row{
+     height: 200px;
+     background: url("../imgs/circle3.png")no-repeat center;
+     /* width: 100%; */
+}
+.row-left{
+    float: left;
+    width: 45%;
+    text-align: right;
+    
+}
+.row-left dt{
+    color: #257bb1;
+    font-size: 24px;
+}
+.row-left dd{
+    color: #999;
+    font-size: 18px;
+} 
+.time-detail .row .row-right{
+    text-align: left;
+    float: right;
+    margin-top: 109px
+}

@@ -1,0 +1,518 @@
+.content-wrap{
+	margin-top: 105px;
+}
+.con-inner{
+	padding: 50px 0;
+	width: 80%;
+	max-width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.banner{
+	padding: 30px 0 50px 0;
+}
+.banner-left{
+	float: left;
+	width: 50%;
+}
+.banner-left h2{
+	font-size: 46px;
+	color: #257BB1;
+	margin-bottom: 20px;
+}
+.banner .banner-left span{
+	font-size:22px;
+	font-weight: 300;
+	color: #999;
+}
+.banner-left h1{
+	font-size: 54px;
+	color: #333;
+	margin-bottom: 32px;
+}
+.banner-left .money{
+	font-size: 30px;
+	color: #257BB1;
+	margin-bottom: 40px;
+}
+.banner-left .btn{
+	font-size: 24px;
+	background: #257BB1;
+	width: 224px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+}
+.banner-left .btn a{
+	color: #fff;
+}
+.banner-right{
+	float: left;
+	width: 50%;
+}
+.banner-right img{
+	width: 100%;
+}
+.con{
+	position: relative;
+}
+.left-button{
+	position: absolute;
+	top: 50%;
+	margin-top: -58px;
+	left: 0;
+	opacity: .8;
+	display: none;
+}
+.right-button{
+	position: absolute;
+	top: 50%;
+	margin-top: -58px;
+	right: 0;
+	opacity: .8;
+	display: none;
+}
+.con:hover .left-button{
+	display: block;
+}
+.con:hover .right-button{
+	display: block;
+}
+.bannertwo{
+	display: none;
+}
+.con-tab{
+	padding: 50px 0;
+	overflow: hidden;
+}
+.con-tab ul li{
+	height: 148px;
+	width: 148px;
+	border-radius: 74px;
+	line-height: 148px;
+	color: #3383b6;
+	border: 1px solid #3383b6 ;
+	text-align: center;
+	float: left;
+	cursor: pointer;
+}
+.color1,.color2, .color3, .color4{
+	margin-right: 7%;
+}
+.con-tab .color1:hover,.con-tab .color1.current{
+	background: #91deda;
+	color: #fff;
+	border: none;
+	height: 150px;
+	width: 150px;
+}
+.con-tab .color2:hover,.con-tab .color2.current{
+	background: #f5ae14;
+	color: #fff;
+	border: none;
+	height: 150px;
+	width: 150px;
+}
+.con-tab .color3:hover,.con-tab .color3.current{
+	background: #fc7466;
+	color: #fff;
+	border: none;
+	height: 150px;
+	width: 150px;
+}
+.con-tab .color4:hover,.con-tab .color4.current{
+	background: #f68a97;
+	color: #fff;
+	border: none;
+	height: 150px;
+	width: 150px;
+}
+.con-tab .color5:hover,.con-tab .color5.current{
+	background: #90dc84;
+	color: #fff;
+	border: none;
+	height: 150px;
+	width: 150px;
+}
+.happywork{
+	display: none;
+}
+/*招聘*/
+.job{
+	display: none;
+}
+.job-row ul{
+	border-bottom: 1px solid #E3E3E3;
+	height: 104px;
+	line-height: 104px;
+}
+.job-row li{
+	float: left;
+	width: 20%;
+	color: #333;
+	font-size: 18px;
+}
+.text-li{
+	text-align: right;
+}
+.job .span-img{
+	background: url(../imgs/add.png) no-repeat center;
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+}
+.job .row-color{
+	background: #f9f9f9;
+}
+.job-detail{
+	display: none;
+	position: relative;
+}
+.job-row .job-detail strong{
+   display: inline-block;
+    margin-bottom: 18px;
+}
+.job-row .job-detail p{
+	color: #333;
+    margin-bottom: 18px;
+	line-height: 30px;
+}
+.job-a{
+	width: 106px;
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+	background: #257BB1;
+	color: #fff;
+	display: inline-block;
+	position: absolute;
+    top: 1%;
+    right: 0%;
+}
+.text-li .span-img1{
+	display: inline-block;
+	background: url(../imgs/sub.png) no-repeat center;
+	width: 30px;
+	height: 30px;
+}
+/*薪资福利*/
+.boon-con{
+	display: none;
+}
+.boon-con .boon-text{
+	margin: 46px 0;
+}
+.boon-text .boon-span{
+	background: #333;
+	width: 8px;
+	height: 8px;
+	border-radius: 4px;
+	display: inline-block;
+	margin-right: 20px;
+	position: relative;
+	top: -4px;
+}
+.boon-text h2{
+	font-size: 24px;
+	color: #333;
+}
+.boon-text dt{
+	font-size: 18px;
+	color: #257BB1;
+	width: 10%;
+	float: left;
+}
+.text-dl{
+	margin-top: 30px;
+	overflow: hidden;
+}
+.text-dl dd{
+	font-size: 18px;
+	color: #333;
+	width: 90%;
+	float: left;
+}
+
+.boon-box {
+	overflow: hidden;
+}
+.box-left{
+	float: left;
+	background: #fff;
+	text-align: center;
+	line-height: 88px;
+	width: 246px;
+	height: 88px;
+	margin-left: -100%;
+}
+.box-left h3{
+	color: #fff;
+	font-size: 24px;
+	width: 236px;
+	background: #66d0ca;
+	
+}
+.box-left h3:hover,.wel-left:hover{
+	animation: rotate1 1s linear 1;
+}
+@keyframes rotate1{
+	0%{
+		-webkit-transform: rotateY(180deg);
+		-moz-transform: rotateY(180deg);
+		-o-transform:rotateY(180deg);
+		-ms-transform: rotateY(180deg);
+		transform: rotateY(180deg);
+	}
+	100%{
+		-webkit-transform: rotateY(0deg);
+		-moz-transform: rotateY(0deg);
+		-o-transform:rotateY(0deg);
+		-ms-transform: rotateY(0deg);
+		transform: rotateY(0deg);
+		
+	}
+}
+
+.box-middle{
+	width: 100%;
+	background: #f5f5f5;
+	height: 88px;
+	float: left;
+}
+.boxM-inner{
+	margin-left: 246px;
+	padding-left: 26px;
+	margin-top: 24px;
+	margin-right: 26px;
+	
+}
+.boon{
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+.boon-box:last-child{
+	margin-bottom:0;
+}
+.boon-box{
+	margin-bottom: 50px;
+}
+.welfare{
+	
+	overflow: hidden;
+}
+.welfare h2{
+	margin-top: 50px;
+	font-size: 24px;
+	color: #333;
+	margin-bottom: 30px;
+}
+.wel-middle{
+	width: 100%;
+	float: left;
+	height: 80px;
+	
+}
+.wel-left{
+	float: left;
+	width: 88px;
+	height: 80px;
+	margin-left: -100%;
+}
+.welfare li{
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+.wel-middle dl{
+	margin-left: 108px;
+	
+}
+.wel-middle dt{
+	font-size: 24px;
+	color: #257BB1;
+	margin-bottom: 10px;
+}
+.wel-middle dd{
+	font-size: 14px;
+	color: #333;
+}
+
+
+/*快乐工作*/
+.info-page{
+    width: 100%;
+   overflow: hidden;
+}
+.info-page .one-left{
+    width: 48%;
+    float: left;
+	margin-right: 2%;
+	animation: rotate1 1s linear 1;
+}
+.oneLeft-img{
+    width: 100%;
+}
+.info-page .one-right{
+    width: 50%;
+    float: left;
+    height: 266px;
+    text-align: left;
+	position: relative;
+	animation: rotate1 1s linear 1;
+}
+.one-right h2,.four .one-left h2{
+    color: #333333;
+    font-size: 24px;
+    margin-bottom: 20px;
+    position: absolute;
+    top: 40%;
+}
+.four .one-left{
+    height: 316px;
+    position: relative;
+    text-align: right;
+}
+.four .one-left h2{
+    right: 0;
+}
+.one-right p,.four .one-left p{
+    color: #464646;
+    font-size: 14px;
+    line-height: 30px;
+    position: absolute;
+    bottom: 48px;
+}
+.two li{
+    width: 33%;
+    float: left;
+}
+/*认真生活*/
+.earnest{
+	display: none;
+}
+.row-up p{
+	color: #999999;
+	font-size: 18px;
+	line-height: 30px;
+	margin-bottom: 50px;
+}
+.row-down1{
+	margin-bottom: 50px;
+}
+.row-down1 img{
+	width: 100%;
+}
+.row-down1 h2{
+	color: #333333;
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+.row-down1 p{
+	color: #999999;
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+
+
+/*员工分享*/
+.share-con p{
+	font-size: 18px;
+	color: #999999;
+	margin-bottom: 56px;
+	overflow: hidden;
+}
+.share-row{
+		height: 300px;
+}
+.share-row .one{
+	
+	width: 25%;
+	float: left;
+	height: 100%;
+	animation: rotate1 1s linear 1;
+}
+.share-row .one1,.share-row .one3{
+	background: #faf8f6;
+}
+.share-row .one1:hover{
+	background: url(../img/y1.png) no-repeat;
+	animation: rotate1 1s linear 1;
+}
+.share-row .one2{
+	background: rgb(177, 184, 173);
+}
+.share-row .one2:hover{
+	background: rgb(232, 236, 233);
+	
+}
+.share-row .one3:hover{
+	background: rgb(134, 134, 134);
+	animation: rotate1 1s linear 1;
+}
+.share-row .one4{
+	background: #abacb1;
+}
+.share-row .one4:hover{
+	background: #999;
+	animation: rotate1 1s linear 1;
+}
+.share-row .one img{
+	width: 100%;
+	height: 100%;
+	
+}
+.share-row .two1{
+	height: 100%;
+	width: 50%;
+	float: left;
+	background: #e3e3e3;
+}
+.share-row .two{
+	width: 50%;
+	float: left;
+	height: 100%;
+	animation: rotate1 1s linear 1;
+}
+.share-row .two2{
+	width: 50%;
+	float: left;
+	height: 100%;
+	background: #666;
+}
+.share-row .two22{
+	background:url(../img/y2.png);
+	animation: rotate1 1s linear 1;
+}
+.share-row .two-info{
+	width: 50%;
+	float: left;
+	height: 100%;
+	background: #F5F5F5;
+}
+.share-row .two-info h3{
+	font-size: 18px;
+	color: #fff;
+    margin-top: 30%;
+    margin-left: 10%;
+    display: none;
+}
+.share-row .two-info .p1{
+	font-size: 14px;
+	color: #fff;
+	margin: 10% 10%;
+    line-height: 22px;
+    display: none;
+    
+}
+.share-row .two3{
+	width: 50%;
+	float: left;
+	height: 100%;
+	background: #666;
+}
+.share-row .two33{
+	background:url(../img/y3.png);
+	animation: rotate1 1s linear 1;
+}
+.share-con{
+	display: none;
+}

@@ -1,0 +1,43 @@
+.content-inner{
+    width: 80%;
+    max-width: 1200px;
+    margin: 50px auto 356px auto;
+    overflow: hidden;
+}
+.content-inner h1{
+    color: #257bb1;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+.instuc-book{
+    width: 60%;
+    float: left;
+}
+
+.instuc-info{
+    margin-left: 10%;
+    float: left;
+}
+.instuc-book li{
+    color: #167af5;
+    font-size: 18px;
+    line-height: 80px;
+    border-bottom: solid 1px #999999;
+}
+.instuc-book li em{
+    color: #999999;
+    margin: auto 22%;
+}
+.instuc-book li a{
+    color: #797979;
+}
+.instuc-info h2{
+    color: #333333;
+    font-size: 24px;
+    line-height: 66px;
+}
+.instuc-info li a{
+    color: #167af5;
+    font-size: 18px;
+    line-height: 40px;
+}

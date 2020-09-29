@@ -1,0 +1,21 @@
+.content-inner{
+    width: 80%;
+    max-width: 1200px;
+    margin: 50px auto;
+}
+.content-inner h1{
+    color: #257bb1;
+    font-size: 30px;
+    margin-bottom: 100px;
+    position: absolute;
+}
+ .organize{
+    width: 80%;
+    height: 980px;
+    position: relative;
+    margin: 0 auto;
+}
+ .organize img{
+    width: 100%;
+    margin-top: 138px;
+}

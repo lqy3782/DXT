@@ -1,0 +1,99 @@
+.content-inner{
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 0 100px 0;
+}
+.content-title{
+    width: 100%;
+    height: 375px;
+    margin-bottom: 50px;
+    position: relative;
+    overflow: hidden;
+}
+.content-title h1{
+    color: #257bb1;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.title-left{
+    position: absolute;
+    left: 0;
+    top:154px;
+    bottom: 105px;
+}
+.title-ul{
+    width: 85%;
+    margin: 0 auto;
+}
+
+.title-ul li img{
+    width:23%;
+    margin-right: 2%;
+    display: inline-block;
+    float: left;
+}
+.title-right{
+    right: 0;
+    position: absolute;
+    top:154px;
+    bottom: 105px;
+}
+.title-left img,.title-right img{
+    width: 60%;
+}
+.content-info{
+    margin-bottom: 100px;
+}
+.info-inner{
+    margin:0 auto;
+    max-width:734px ;
+}
+.con-dl{
+    margin-bottom: 30px;
+    height: 212px;
+    line-height: 212px;
+    text-align: center;
+    border: 1px solid #9fe1e1;
+}
+.con-dt{
+    float: left;
+    width: 49.5%;
+    border-right: 1px solid #9fe1e1;
+}
+.con-dd{
+    float: left;
+    width: 49.5%;
+}
+
+.love h1{
+    font-size: 30px;
+    color: #257bb1;
+    margin-bottom: 34px;
+}
+.love-one{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 50px;
+}
+.love-img{
+    width: 50%;
+    float: left;
+}
+.love-ul{
+    width: 48%;
+    float: left;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    line-height: 40px;
+    color: #666666;
+    font-size: 18px;
+}
+.love-two{
+    margin-bottom: 0;
+}
+.title-li{
+    display: none;
+}

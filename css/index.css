@@ -1,0 +1,106 @@
+.bannerbg{
+    width: 100%;
+}
+.content-inner{
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.content-wrap{
+    position: relative;
+}
+.content-info{
+    position: absolute;
+    top:10%;
+    left: 0;
+    width: 100%;
+}
+.banner-text{
+    width: 52%;
+    margin-top: 5px;
+}
+.content-icon{
+    position: absolute;
+    width: 50%;
+    margin-top: 10%;
+}
+.content-icon li{
+    width: 14%;
+    float: left;
+}
+.iconhide{
+    display: none;
+}
+.iconshow{
+    width: 52%;
+}
+.content-icon li:hover .iconshow{
+    display: none;
+}
+.content-icon li:hover .iconhide{
+    display: block;
+    margin-top: -16px;
+}
+.qiqiu1{
+    position: absolute;
+    top: 5%;
+    left: 63%;
+    animation: move1 8s linear infinite;
+}
+    @keyframes move1 {
+        0%{
+            left:55%;
+            top:5%;
+        }
+        50%{
+            left:62%;
+            top:5%;
+        }
+        100%{
+            left: 70%;
+            top:5%;
+        }
+    }
+
+.qiqiu2{
+    position: absolute;
+    top: 16%;
+    left: 70%;
+    animation: move2 8s linear infinite;
+}
+    @keyframes move2 {
+        0%{
+            left:62%;
+            top:16%;
+        }
+        25%{
+            left:69%;
+            top:13%;
+        }
+        50%{
+            left:70%;
+            top:10%;
+        }
+        100%{
+            left: 77%;
+            top:5%;
+        }
+    }
+.phone{
+    position: absolute;
+    bottom: 12%;
+    left: 48%;
+    width: 4%;
+}  
+ .phone:hover{
+    animation: movephone 1s linear infinite;
+}
+
+@keyframes movephone{
+    0%{
+        transform: rotateY(180deg);
+    }
+    100%{
+        transform: rotateY(0deg)
+    }
+}

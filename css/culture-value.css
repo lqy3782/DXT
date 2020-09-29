@@ -1,0 +1,93 @@
+.content-inner{
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 0 100px 0;
+}
+.culture-value{
+    width: 100%;
+    height: 828px;
+    margin-bottom: 134px;
+}
+.culture-value h1 {
+    font-size: 30px;
+    color: #257bb1;
+    margin-bottom:20px; 
+}
+.culture-one{
+    width: 100%;
+    height: 372px;
+    margin-bottom: 124px;
+    overflow: hidden;
+}
+.culture-one dt{
+    width: 48%;
+    float: left;
+    margin-right: 4%;
+}
+.culture-one dt img{
+    width: 100%;
+}
+.culture-one dd img{
+    width: 100%;
+}
+.culture-one dd{
+    float: left;
+    width: 48%;
+}
+.culture-one h2{
+    color: #333333;
+    font-size: 24px;
+    line-height:46px;
+}
+.culture-one p{
+    font-size: 18px;
+    color: #a0a0a0;
+    line-height:32px;
+}
+.culture-one span{
+    font-size: 18px;
+    color: #333333;
+    line-height:54px;
+}
+ .two p{
+    color: #333333;
+}
+.ourValue{
+    width: 100%;
+}
+.ourValue h2{
+    font-size: 24px;
+    color: #333333;
+    margin-bottom: 24px;
+}
+.ourValue p{
+    font-size: 18px;
+    color: #a0a0a0;
+    widows: 100%;
+    margin-bottom: 50px;
+}
+.value{
+    width: 100%;
+    height: 302px;
+    margin-bottom: 150px;
+    overflow: hidden;
+}
+.value-dt{
+    width: 48%;
+    float: left;
+    margin-right: 4%;
+}
+.value h1{
+    font-size: 48px;
+    color: #257bb1;
+    margin-bottom: 28px;
+}
+.value span{
+    font-size: 24px;
+    color: #333333;
+    margin-bottom: 28px;
+}
+.ourValue .four{
+    margin-bottom: 0;
+}

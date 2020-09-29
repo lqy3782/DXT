@@ -1,0 +1,104 @@
+/*响应式布局*/
+@media screen and (min-width:1013px ) {
+	.header-shape{
+		display: none ;}
+	}
+@media screen and (max-width:1012px ) {
+	/*首页*/
+	/* .header-rigth,.bannerbg{display: none;}*/
+	.header-wap{
+		display: block;
+	} 
+	.content-icon{
+		display: none;
+	}
+	.header-rigth {
+		display: none;
+	}
+	.content-wrap .banner-text{
+    width: 60%;
+}
+
+	.up-right{
+		width: 100%;
+	}
+	.phone,.up-left,.qiqiu{
+		display: none;
+	}
+	/* 联系我们 */
+	.con-icon .icon-li{
+		width: 50%;
+		float: left;
+	}
+	/* 公司简介 */
+	.picture-right{
+		display: none;
+	}
+	.picture-left{
+		width: 100%;
+	}
+	.moudle-item,.moudle-item2{
+		width: 48%;
+	}
+	.moudle-item3{
+		display: none;
+	}
+	.p-detail{
+		overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+	}
+
+	/* 荣誉资质 */
+	.content-title{
+		display: none;
+	}
+	/* 公司公告 */
+	.instuc-info{
+		display: none;
+	}
+	.instuc-book{
+		width: 100%;
+		overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+	}
+	/* 加入我们 */
+	.con-tab li{
+		width: 100%;
+	}
+
+}
+@media screen and (max-width:700px ){
+	.logo-title,.content-info{
+		display: none;
+	}
+	.up-item{
+		width: 100%;
+	}
+	
+    .banner-wap{
+        display:block;
+	}
+
+}
+@media screen and (max-width:700px ){
+	.logo-title,.content-info,.bannerbg{
+		display: none;
+	}
+	.up-item{
+		width: 100%;
+	}
+	
+    .banner-wap{
+        display:block;
+    }
+	.more-left{
+		display: none;
+	}
+	.more-right{
+		width: 100%;
+	}
+}
+
+

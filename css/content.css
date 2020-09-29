@@ -1,0 +1,164 @@
+.content-wrap{
+
+}
+.content-inner{
+    padding: 50px 0;
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.content-banner{
+    margin-bottom: 56px;
+}
+.content-banner h1{
+    font-size: 30px;
+    color: #257bb1;
+    margin-bottom: 20px;
+}
+.content-banner img{
+    width: 100%;
+}
+.content-title{
+    margin-bottom: 52px;
+}
+.content-title h1{
+    font-size: 30px;
+    margin-bottom: 26px;
+    color: #333333;
+}
+.content-title p{
+    font-size: 18px;
+    color: #333333;
+}
+.conent-picture{
+    overflow: hidden;
+}
+.picture-left{
+    overflow: hidden;
+}
+.picture-left{
+    float: left;
+    width: 48%;
+    margin:0 2% 50px 0;
+}
+
+.picture-left li{
+    margin-bottom: 44px;
+    width: 100%;
+}
+.picture-left li h2{
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #257bb1;
+}
+.picture-left li p{
+    font-size: 18px;
+    color: #666;
+}
+.round{
+    width: 12px;
+    height: 12px;
+    background: #257bb1;
+    border-radius: 5px;
+    display:inline-block;
+    margin-right: 5px;
+}
+.picture-right{
+    float: left;
+    width: 50%;
+    height: 520px;
+    overflow: hidden;
+}
+
+.picR-left{
+    float: left;
+    width:39%;
+    margin-right: 2%;
+    height: 520px;
+}
+.left-up{
+    width: 100%;
+    height: 300px;
+    margin-bottom:10px;
+}
+.left-bottom{
+    width: 100%;
+    height: 210px;
+}
+.picR-right{
+    float: left;
+    width:59%;
+}
+.picR-one{
+    float: left;
+    width: 49%;
+    height: 190px;
+    margin-right: 2%;
+}
+.picR-two{
+    float: left;
+    width:49%;
+    height: 190px;
+}
+.picR-three{
+    width: 100%;
+    height: 330px;
+}
+.content-moudle{
+    height: 360px;
+    
+}
+.moudle-item{
+    width: 20%;
+    height: 100%;
+    float: left;
+    position: relative;
+}
+.moudle-title{
+    height: 250px;
+    width: 100%;
+    background: #97c9e5;
+}
+.moudle-bg{
+    width: 100%;
+    height: 110px;
+    background: #f4f4f4;
+}
+.circle{
+    width: 80px;
+    height: 80px;
+    background: #c1e4f8;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 68px;
+    right: 40px;
+}
+.moudle-item2{
+    width: 28%;
+    float: left;
+    margin-left: 2%;
+    position: relative;
+
+}
+.moudle-item3{
+    width: 48%;
+    margin-left: 2%;
+    float: left;
+    position: relative;
+}
+.mobile-info{
+    width: 100%;
+    height: 86px;
+    margin-bottom: 36px;
+}
+
+.mobile-info .p-detail {
+    font-size: 16px;
+    color: #797979;
+    width: 100%;
+}
+.mobile-info p span{
+    font-size: 18px;
+    line-height: 36px;
+    font-weight: bold;
+}

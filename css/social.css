@@ -1,0 +1,80 @@
+.content-inner{
+    width: 80%;
+    max-width: 1200px;
+    margin: 50px auto;
+}
+.content-detail{
+    background: #e3e3ee;
+    margin-bottom: 50px;
+    
+}
+.content-detail img{
+    width: 100%;
+}
+.detail-info h2{
+    color: black;
+    font-size: 18px;
+    line-height: 30px;
+    width: 100%;
+}
+.detail-info p{
+    color: #333333;
+    font-size: 14px;
+    line-height: 28px;
+}
+.detail-info{
+    width: 100%;
+    padding: 30px   0 30px 8%;
+}
+.con-icon{
+	margin-top: 50px;
+}
+.con-icon .icon-li{
+	width: 25%;
+	float: left;
+}
+.btn{
+	border: 1px solid #257BB1;
+	width:204px;
+	height: 48px;
+	line-height: 48px;
+	text-align: center;
+	font-size: 22px;
+	color: #257BB1;
+	border-radius: 24px;
+	margin-bottom: 32px;
+}
+.btn em{
+	background: url(../img/gear.png) no-repeat;
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.btn .em2{
+	background: url(../img/laptop.png) no-repeat;
+	width: 23px;
+    height: 23px;
+}
+.btn .em3{
+	background: url(../img/yen.png) no-repeat;
+	width: 23px;
+    height: 28px;
+}
+.btn .em4{
+	background: url(../img/controller.png) no-repeat;
+    width: 26px;
+    height: 28px;
+}
+.con-icon ul{
+	overflow: hidden;
+}
+.li-info ul li{
+	line-height: 30px;
+	color: #666;
+	font-size: 14px;
+}
+.li-info{
+	width: 208px;
+	margin: 0 auto;
+}

@@ -1,0 +1,40 @@
+/*响应式布局*/
+@media screen and (min-width:1013px ) {
+	.header-shape{
+		display: none !important;}
+	}
+@media screen and (max-width:1012px ) {
+	/*首页*/
+	.headerT-right{display: none;}
+	.header-wap{
+		display: block;
+	}
+	
+	.headerL-right {
+		display: none;
+	}
+	.content-wrap .banner-text{
+    width: 60%;
+}
+
+	.up-right{
+		width: 100%;
+	}
+	.phone,.up-left,.qiqiu,.cloud{
+		display: none;
+	}
+
+}
+@media screen and (max-width:414px ){
+	.logo-title,.content-info,.bannerbg{
+		display: none;
+	}
+	.up-item{
+		width: 100%;
+	}
+	
+    .banner-wap{
+        display:block;
+    }
+
+}
